@@ -5,15 +5,11 @@ html, body, div, span, h1, h2, h3, h4, a, ol, ul, li, form, label, article, asid
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-}
-
-body {
-  line-height: 1.5;
-}
 
 ol, ul {
   list-style: none;
 }
+
 
 input[type="radio"], select, input[type="submit"] {
   cursor: pointer;
@@ -30,4 +26,37 @@ img {
   width: 100%
 }
 
+section {
+  width: 700;
+  display: inline-block;
+  vertical-align: top;
+}
 
+body {
+  line-height: 1.5;
+  width: 900px;
+  margin: 0 auto;
+}
+
+nav {
+  display: inline-block;
+}
+
+aside {
+  width: 180px;
+  
+}
+
+nav ul li {
+  padding: 20px;
+  display: block;
+}
+
+.ingredients-list {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+form {
+  display: block;
+}
