@@ -76,6 +76,8 @@ h2 + .user_review {
 
 nav {
   display: inline-block;
+  position: absolute;
+  right: 200px;
 }
 
 nav ul li {
