@@ -25,38 +25,3 @@ will take up 100% width of their containers */
 img {
   width: 100%
 }
-
-section {
-  width: 700;
-  display: inline-block;
-  vertical-align: top;
-}
-
-body {
-  line-height: 1.5;
-  width: 900px;
-  margin: 0 auto;
-}
-
-nav {
-  display: inline-block;
-}
-
-aside {
-  width: 180px;
-  
-}
-
-nav ul li {
-  padding: 20px;
-  display: block;
-}
-
-.ingredients-list {
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
-form {
-  display: block;
-}
